@@ -1,1 +1,23 @@
+[10.0.22621.3235]
+SingleUserPatch.x64=1
+SingleUserOffset.x64=C243
+SingleUserCode.x64=Zero
+DefPolicyPatch.x64=1
+DefPolicyOffset.x64=1C055
+DefPolicyCode.x64=CDefPolicy_Query_eax_rcx
+LocalOnlyPatch.x64=1
+LocalOnlyOffset.x64=9D3F1
+LocalOnlyCode.x64=jmpshort
+SLInitHook.x64=1
+SLInitOffset.x64=297C0
+SLInitFunc.x64=New_CSLQuery_Initialize
 
+[10.0.22621.3235-SLInit]
+bServerSku.x64=12AF50
+bRemoteConnAllowed.x64=12AF64
+bFUSEnabled.x64=12AF74
+bAppServerAllowed.x64=12AF5C
+bMultimonAllowed.x64=12AF68
+lMaxUserSessions.x64=12AF54
+ulMaxDebugSessions.x64=12AF70
+bInitialized.x64=12AF4C
