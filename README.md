@@ -78,7 +78,7 @@ This tool relies on some other tools. You need to have installed these first.
 2. Extract the zip file.
 3. Run as administrator:
     ```
-    setup.bat
+    RDPPatcher.exe
     ```
 4. Check in rdpconf.exe from RDP Wrapper that it is listening and all rows are green.
 5. Use RDP!
