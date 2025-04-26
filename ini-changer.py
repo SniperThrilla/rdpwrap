@@ -40,7 +40,7 @@ def disable_rdp_service() -> None:
     """
     Stops Remote Desktop Services so that rdpwrap.ini can be modified.
     """
-    os.system(f'net stop "Remote Desktop Services"')
+    os.system(f'net stop "Remote Desktop Services" /yes')
 
 def enable_rdp_service() -> None:
     """
