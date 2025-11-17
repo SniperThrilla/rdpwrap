@@ -1,2 +1,15 @@
-offsets.txt
-setup.py
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+venv/
+env/
+*.env/
+
+build/
+dist/
+*.spec
+
+.DS_Store
+
