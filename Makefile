@@ -1,5 +1,12 @@
+VENV := venv
+PIP := $(VENV)/bin/pip
+
 build:
-	pyinstaller --onefile --manifest resources/admin.manifest --paths src src/rdppatcher/__main__.py --add-data "resources/*:resources" --add-binary "bin/*:bin" --name RDPPatcher
+	$(PIP) install -r requirements.txt
+	pyinstaller --onefile --manifest resources/admin.manifest --paths src --add-data "resources:resources" --add-data "bin:bin" --name RDPPatcher --uac-admin --windowed src/rdppatcher/__main__.py
+
+$(VENV):
+	python3 -m venv $(VENV)
 
 clean:
 	rm -rf build dist *.spec
