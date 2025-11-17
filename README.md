@@ -60,8 +60,6 @@ RDP Wrapper needs to be continually updated to support Windows versions, or some
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -72,25 +70,21 @@ To use this utility, follow these simple instructions.
 This tool relies on some other tools. You need to have installed these first.
 * [RDPWrapper]
 
+### Building
+
+If you wish to build the project yourself instead of using a Release, you can do so as follows:
+
+**Linux**: Run `make` in the root directory. \
+**Windows**: Run `build_windows.bat`.
+
+
+
 ### Installation
 
-1. Download the most recent release.
-2. Extract the zip file.
-3. Run as administrator:
-    ```
-    RDPPatcher.exe
-    ```
-4. Check in rdpconf.exe from RDP Wrapper that it is listening and all rows are green.
-5. Use RDP!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+1. Download the most recent release (or compile yourself).
+2. Run the `RDPPatcher.exe`.
+3. Check in `rdpconf.exe`` from RDP Wrapper that it is listening and all rows are green.
+4. Use RDP!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
